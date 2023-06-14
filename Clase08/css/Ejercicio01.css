@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenedor {
+    margin: 0 auto;
+    display: grid;
+    width: 50%;
+    height: 700px;
+    background-color: lightgray;
+    grid-template-areas: 'uno dos'
+                         'uno tres';
+    text-align: center;
+}
+
+.uno {
+    grid-area: uno;
+    background-color: lightcoral;
+}
+
+.dos {
+    grid-area: dos;
+    background-color: lightblue;
+}
+
+.tres { 
+    background-color: lightcyan;
+    grid-area: tres;
+}
