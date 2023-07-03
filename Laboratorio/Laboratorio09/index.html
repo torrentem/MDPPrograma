@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>E C C O - Travel & experiences</title>
+</head>
+<body>
+<header>
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand navStyleLogo"href="#">ECCO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navStyle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinos
+                </a>
+                <ul class="dropdown-menu bg-success">
+                  <li><a class="dropdown-item navStyle" href="#">Action</a></li>
+                  <li><a class="dropdown-item navStyle" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item navStyle" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navStyle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Excursiones
+                </a>
+                <ul class="dropdown-menu bg-success">
+                  <li><a class="dropdown-item navStyle" href="#">Action</a></li>
+                  <li><a class="dropdown-item navStyle" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item navStyle" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navStyle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Paquetes
+                </a>
+                <ul class="dropdown-menu bg-success">
+                  <li><a class="dropdown-item navStyle" href="#">Action</a></li>
+                  <li><a class="dropdown-item navStyle" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item navStyle" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navStyle" aria-current="page" href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link navStyle"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+        <!-- Final de navbar -->
+</header>
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Carousel -->
+            <div class="col-lg-6 col-md-12  col-xl-6 col-xxl-6 px-0">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://picsum.photos/id/177/1200/600" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Caminos mágicos</h5>
+                          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exploraciones">VER MAS</button>
+                        </div>
+                        <div class="modal fade" id="exploraciones" tabindex="-1" aria-labelledby="exploraciones" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/177/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>Caminos mágicos</h3>
+                                                <h6>Aventurarse a lo desconocido</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://picsum.photos/id/314/1200/600" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Rutas inolvidables</h5>
+                          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ruteando">VER MAS</button>
+                        </div>
+                        <div class="modal fade" id="ruteando" tabindex="-1" aria-labelledby="ruteando" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/314/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>Rutas inolvidables</h3>
+                                                <h6>Caminos sin dentinos</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://picsum.photos/id/338/1200/600" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Recuerdos imborrables</h5>
+                          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#recuerdos">VER MAS</button>
+                        </div>
+                        <div class="modal fade" id="recuerdos" tabindex="-1" aria-labelledby="recuerdos" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/338/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>Recuerdos imborrables</h3>
+                                                <h6>imágenes grabadas en tu retina y el corazón</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                  
+            </div>
+            <div class="col-lg-6">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover mx-0">
+                        <div>
+                            <img src="https://picsum.photos/id/650/300/225" class="w-100 d-block prodcut" alt="...">
+                        </div>
+                        <div class="overlay">
+                            <h3>Rutas soñadas</h3>
+                            <div class="d-flex">
+                                <button type="button" class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#rutasmagic">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rutasmagic" tabindex="-1" aria-labelledby="rutasmagic" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/650/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>RUTAS SOÑADAS</h3>
+                                                <h6>Recorré largas rutas rodeadas de antiguos pinos</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover">
+                        <div>
+                            <img src="https://picsum.photos/id/29/300/225" class="w-100 d-block prodcut" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Montañas nevadas</h3>
+                            <div class="d-flex">
+                                <button class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#montanas">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="montanas" tabindex="-1" aria-labelledby="montanas" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/29/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>MONTAÑAS NEVADAS</h3>
+                                                <h6>Aventurate entre la nieve y las alturas</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover ">
+                        <div>
+                            <img src="https://picsum.photos/id/37/300/225" class="w-100 d-block prodcut" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Vistas expectaculares</h3>
+                            <div class="d-flex">
+                                <button class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#vistasespectaculares">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="vistasespectaculares" tabindex="-1" aria-labelledby="vistasespectaculares" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/37/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>VISTAS ESPECTACULARES</h3>
+                                                <h6>Las mejores vistas del mar</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover">
+                        <div>
+                            <img src="https://picsum.photos/id/49/300/225" class="w-100 d-block prodcut" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Arquitectura única</h3>
+                            <div class="d-flex">
+                                <button class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#arquitecturaunica">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="arquitecturaunica" tabindex="-1" aria-labelledby="arquitecturaunica" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/49/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>ARQUITECTURA UNICA</h3>
+                                                <h6>Constucciones maravillosas</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover">
+                        <div>
+                            <img src="https://picsum.photos/id/290/300/225" class="w-100 d-block prodcut" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Cielos cautivantes</h3>
+                            <div class="d-flex">
+                                <button class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#cieloscautivantes">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="cieloscautivantes" tabindex="-1" aria-labelledby="cieloscautivantes" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/290/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>Cielos cautivantes</h3>
+                                                <h6>Constucciones maravillosas</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 px-0 effectHover">
+                        <div>
+                            <img src="https://picsum.photos/id/299/300/225" class="w-100 d-block prodcut" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Ciudades increibles</h3>
+                            <div class="d-flex">
+                                <button class="btn btn-success centrado" data-bs-toggle="modal" data-bs-target="#ciudadesIncreibles">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="ciudadesIncreibles" tabindex="-1" aria-labelledby="ciudadesIncreibles" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row px-0">
+                                        <div class="col">
+                                            <div class="img-modal">
+                                                <img src="https://picsum.photos/id/290/300/225" class="w-100 d-block" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="info-modal">
+                                                <h3>Cielos cautivantes</h3>
+                                                <h6>Constucciones maravillosas</h6>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id laudantium minima perspiciatis quas distinctio saepe, dolore veniam corporis harum rem optio magnam itaque, alias autem assumenda aperiam ipsum sit exercitationem!
+                                                Beatae, dolorem pariatur vitae neque ipsum voluptatibus sunt labore, aut est, veniam ullam aspernatur dolor similique fuga! Unde accusamus magni sint ipsum sed nesciunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">RESERVAR</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
