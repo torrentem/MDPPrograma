@@ -2,6 +2,7 @@
 a.navStyleLogo {
     font-weight: bold;
     color: white;
+    letter-spacing: 3px;
 }
 
 a.navStyle {
@@ -40,8 +41,9 @@ a.navStyle {
 .overlay h3 {
     text-align: center;
     color: white;
-    margin-top: 33%;
+    margin-top: 30%;
     margin-bottom: 30px;
+    font-size: 1.7em;
 }
 
 .overlay button.centrado {
@@ -55,4 +57,96 @@ a.navStyle {
 .info-modal h3 {
     color: green;
     font-weight: bold;
+    
 }
+
+.infoCompany {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.infoCompany p {
+    text-align: justify;
+    padding: 2px 5px;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.infoCompany i {
+    font-size: 5em;
+    color: #198754;
+    margin-bottom: 0.3em;
+}
+
+.infoCompany h4 {
+    margin-bottom: 20px;
+    color: #198754;
+}
+
+.sectionTitle {
+    color: #198754;
+    text-align: center;
+}
+
+.sectionTitle hr {
+    color: #198754;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.lastTrip {
+    text-align: center;
+}
+
+.lastTrip img {
+    margin-bottom: 30px;
+    filter: grayscale(70%);
+    cursor: pointer;
+}
+
+.lastTrip h4 {
+    color: #198754;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.lastTrip p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.profile {
+    background-color: whitesmoke;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: center;  
+    height: auto;  
+}
+
+.profileLogo {
+    width: 30%;
+    margin-bottom: 25px;
+}
+figure {
+    justify-content: center;
+    display: flex;
+
+}
+
+.profile h1 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.profile h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.profile p {
+    text-align: center;
+}
+
