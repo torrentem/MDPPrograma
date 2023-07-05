@@ -124,3 +124,27 @@ a.dropdown-item:hover {
 a.linksFooter {
     text-decoration: none;
 }
+
+i.fa-brands.fa-bitcoin:hover {
+    color: orange;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+i.fa-brands.fa-ethereum:hover {
+    color: darkslateblue;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+i.fa-brands.fa-paypal:hover {
+    cursor: pointer;
+    transition: .5s ease;
+    color: darkblue;
+}
+
+i.fa-solid.fa-bolt-lightning:hover {
+    cursor: pointer;
+    transition: .5s ease;
+    color: yellow;
+}
