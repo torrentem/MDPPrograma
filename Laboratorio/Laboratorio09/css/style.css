@@ -102,15 +102,15 @@ a.dropdown-item:hover {
 }
 
 .redes {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     border: 2px solid rgb(171, 170, 170);
     background-color: rgba(255, 255, 255, 0.7);
-    position: fixed;
-    top: 325px;
+    /* position: fixed; */
+    /* top: 325px; */
     z-index: 9999;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 
