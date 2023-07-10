@@ -1,0 +1,16 @@
+#div-1 {
+    width: 55%;
+    transition: 0.5s ease;
+    height:150px;
+}
+
+#div-2 {
+    width: 44%;
+    transition: 0.5s ease;
+    height:150px;
+}
+
+.big {
+    transition: 0.5s ease;
+    width: 100% !important;
+}
