@@ -4,12 +4,12 @@ const botonAgrandar = document.getElementById("applyBig")
 const botonAchicar = document.getElementById("applySmall")
 
 
-botonAgrandar.onclick = function(){
+botonAgrandar.addEventListener("click", function(){
     div1.classList.add('big'),
     div2.classList.add('big');
-}
+})
 
-botonAchicar.onclick = function(){
+botonAchicar.addEventListener("click", function(){
     div1.classList.remove('big'),
     div2.classList.remove('big');
-}
+})
