@@ -23,7 +23,7 @@ addBtn.addEventListener("click", function(){
 function addDeleteBtn() {
     const delBtn = document.createElement("button");
 
-    delBtn.textContent="eliminar";
+    delBtn.textContent="X";
     delBtn.classList.add("deletebtn");
 
     delBtn.addEventListener("click", function(e){
