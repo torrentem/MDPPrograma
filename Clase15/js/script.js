@@ -20,6 +20,12 @@ addBtn.addEventListener("click", function () {
     }
 })
 
+    input.addEventListener("keyup", function(e) {
+        if (e.code === 'Enter'){
+            addBtn.click();
+        }
+    });
+
 
 function addDeleteBtn() {
     const delBtn = document.createElement("button");
